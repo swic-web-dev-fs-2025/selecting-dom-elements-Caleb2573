@@ -30,3 +30,6 @@ if (secondCard) {
 } else {
   console.info("Second card not found");
 }
+//Lab 2 refactor
+//const title = document.querySelector("main.card.card-title");
+//const title = document.querySelector("[data-product-name = `Product A`]");
