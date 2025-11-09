@@ -1,8 +1,11 @@
 import "./style.css";
 const header = document.querySelector("#main-header");
 const links = document.querySelectorAll(".navbar a");
-const internalLinks = document.querySelectorAll('a[href^="/"]');
-const internalLinksArray = Array.from(internalLinks);
+const allLinks = document.querySelectorAll("a");
+const allLinksArray = Array.from(allLinks);
+const internalLinksArray = allLinksArray.filter((link) =>
+  link.getAttribute("href").startsWith("/"),
+);
 const required = document.querySelectorAll("input[required]");
 const cards = document.querySelectorAll(".card");
 //task 1
