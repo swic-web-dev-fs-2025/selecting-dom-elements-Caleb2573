@@ -35,4 +35,4 @@ if (secondCard) {
 }
 //Lab 2 refactor
 //const title = document.querySelector("main.card.card-title");
-//const title = document.querySelector("[data-product-name = `Product A`]");
+//const title = document.querySelector("[data-title-id = `1`]");
